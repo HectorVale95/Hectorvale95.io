@@ -1,0 +1,55 @@
+/* Agrega estilos para los elementos del historial */
+.historialPokemon {
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.historialPokemon img {
+  max-width: 100px;
+  max-height: 100px;
+  margin-bottom: 5px;
+}
+
+/* Ajusta el tamaño de la fuente para el historial */
+#historyList h5,
+#historyList h6,
+#historyList p {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+/* Agrega estilos para los elementos del historial */
+.historialEquipo {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.historialPokemon {
+  width: calc(33.33% - 20px);
+  margin: 0 10px 10px 0; 
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-sizing: border-box; 
+}
+
+.historialPokemon img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 5px;
+}
+
+#historyList h5,
+#historyList h6,
+#historyList p {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.Equipo{
+  margin-top: 100px;
+}
+.equipoNombre {
+  display: grid; /* Utiliza grid layout */
+  grid-template-columns: repeat(auto-fit, minmax(600px, 1fr)); /* Crea columnas de tamaño flexible */
+  gap: 10px; /* Espacio entre las columnas */
+ 
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>POKEMON</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+    
+  <div class="container">
+    <h1 class="text-center mt-5">Equipos Pokémon</h1>
+    <h5 class="text-center mt-5">Crea un equipo Pokemon</h5>
+    <div class="row mt-5">
+      <div class="col-md-6 offset-md-3">
+        <div class="input-group mb-3">
+          <input type="text" id="pokemonSearch" class="form-control" placeholder="Encuentra Al Pokemon Por Nombre o ID :)">
+          <div class="input-group-append">
+          
+          </div>
+        
+        </div>
+        <div class="botones">
+          <button id="addPokemonBtn" class="btn btn-success" type="button">Agregar Pokemon</button>
+          <button id="resetBtn" class="btn btn-warning">Empezar de Nuevo</button>
+          <button id="historyBtn" class="btn btn-info">Historial de Equipos</button>
+        </div>
+        <div id="pokemonList" class="mb-3"></div>
+            <h3>Historial de Equipos</h3>
+            <ul id="historyList"></ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="Pokemon.js"></script>
+</body>
+</html>
